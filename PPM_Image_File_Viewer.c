@@ -49,6 +49,8 @@ int main ()
     }
 
     free(pixel_data); 
+    SDL_DestroyWindow()
+    SDL_Quit()
     return 0 ; 
 }
 
