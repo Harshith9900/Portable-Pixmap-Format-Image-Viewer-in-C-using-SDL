@@ -7,7 +7,6 @@ This is a very lightweight, custom built image viewer written entirely in raw C.
 ## Features
 * **Custom Binary Parser:** Reads header data and extracts raw RGB pixel bytes directly from memory without relying on heavy external libraries.
 * **Hardware Rendering:** Maps the 1D binary pixel array into a 2D coordinate system and renders it using SDL2 hardware acceleration.
-* **Automated Build System:** Includes a clean `Makefile` for one-click compilation.
 
 ## Prerequisites
 To run this project, you need the **SDL2** development library installed on your system . **SDL2** for showing image and might also need **Pillow** for converting png or jpeg images into ppm . 
